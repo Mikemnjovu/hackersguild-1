@@ -1,0 +1,23 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #3aae84;
+  color: #fff;
+}
+
+.landing__title {
+  width: 12em;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.landing__content {
+  margin: 1em 0 1.5em 0;
+  width: 20em;
+  font-size: 18px;
+  text-align: center;
+}

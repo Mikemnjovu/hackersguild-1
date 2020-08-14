@@ -1,0 +1,60 @@
+/* ::root {
+  --green-color: #3aae84;
+  --green-color-dark: #2c4d41;
+  --light-orange-color: #e6b149;
+} */
+.nav {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em 1em 0 1em;
+  background-color: white;
+}
+.nav__button {
+  background-color: transparent;
+  border: none;
+}
+.nav__logo {
+  object-fit: contain;
+  max-height: 2.5em;
+}
+.nav__brand {
+  padding: 0;
+  margin: 0;
+}
+.nav-container__list {
+  max-width: auto;
+  display: none;
+}
+
+@media screen and (min-width: 880px) {
+  .nav {
+    padding: 2em 1em 2em 4em;
+    background-color: white;
+  }
+  .nav__menu {
+    display: none;
+  }
+  .nav-container__list {
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav__item {
+    color: white;
+    display: flex;
+    margin-right: 4em;
+  }
+  .nav__link {
+    text-decoration: none;
+    color: #000;
+  }
+}
