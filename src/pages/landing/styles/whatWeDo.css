@@ -27,6 +27,12 @@
 .what-we-do__discription {
   margin: 0.2em 0;
 }
+.what-we-do__discription p {
+  margin: 0.2em 0;
+  height: 6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .what-we-do__button {
   margin: 0.5em 0;
 }
