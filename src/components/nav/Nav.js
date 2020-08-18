@@ -2,7 +2,7 @@ import React from "react";
 import hGLogo from "../../assets/images/HGLogo.png";
 import menu from "../../assets/images/pngs/menu.png";
 import { NAV } from "../../data/constants";
-import "./Nav.css";
+import "./nav.css";
 import BaseButton from "../button/baseButton";
 const Nav = () => {
   console.log(NAV.button);

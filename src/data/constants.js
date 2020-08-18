@@ -43,7 +43,7 @@ export const WHAT_WE_DO = {
     discription:
       "To promote collaboration and sharing of knowledge we use hackathorns as a good place to highlight skills gained from respective coding clubs, Students are challenge to start solving real world problems using the skills gained fromcoding club activities.",
     button: {
-      className: "btn__outline",
+      className: "btn__outline-green",
       content: "Learn more",
     },
     imgAlt: "hackerthons",
@@ -54,7 +54,7 @@ export const WHAT_WE_DO = {
     discription:
       "As an initiative to spark computer science interest in high school, HG works with school age youth through coding clubs. The school coding clubs are meant to groom upcoming  developers, as such we will set them up to be more than just an ordinary school club but a place to have fun as they build skills that will inform their career path. HG’s approach is to mentor a group of pupils who will take up the leadership role of the club with supervision of the teacher. They are then exposed to basic Web and mobile app development, electronics and game development.",
     button: {
-      className: "btn__outline",
+      className: "btn__outline-green",
       content: "Learn more",
     },
     imgAlt: "school clubs",
@@ -65,7 +65,7 @@ export const WHAT_WE_DO = {
     discription:
       " The flagship program at HG is its 3 month-long intensive coding “bootcamp” that teaches professional software development from a beginner level leading to marketable skills, with focus on web and mobile application development. This program allows participants to learn how to be a programmer and builds adaptive skills that may be  utilized in any programming language, leading students to be capable of solving complex problems using technology.",
     button: {
-      className: "btn__outline",
+      className: "btn__outline-green",
       content: "Learn more",
     },
 

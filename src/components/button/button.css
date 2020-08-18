@@ -19,16 +19,16 @@
   background-color: white;
   border: solid 2px #3aae84;
 }
-.btn__outline-black {
+.btn__outline-green {
   font-size: 14pt;
-  color: black;
+  color: #3aae84;
   padding: 0.7em 1.7em;
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #3aae84;
 }
-.btn__normal:hover {
-  color: #3aae84;
-  background-color: #fff;
+.btn__outline-green:hover {
+  background-color: #3aae84;
+  color: #fff;
   padding: 0.7em 1.7em;
-  border: none;
+  border: 2px solid #fff;
 }
