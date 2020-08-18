@@ -1,0 +1,12 @@
+.what-we-do__img {
+  object-fit: contain;
+  margin-bottom: 0.3em;
+}
+.what-we-do__hackerthons {
+  height: 60px;
+}
+.what-we-do__school-clubs {
+  width: 70px;
+}
+/* .what-we-do__container {
+} */

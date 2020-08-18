@@ -8,7 +8,7 @@ const WhatWeDoItem = (props) => {
   return (
     <div>
       <div className="what-we-do__">
-        <div className="">{img}</div>
+        <div className="what-we-do__img">{img}</div>
         <div className="what-we-do__title">
           <h3>{title}</h3>
         </div>

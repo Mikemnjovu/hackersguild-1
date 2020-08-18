@@ -58,3 +58,8 @@
     color: #000;
   }
 }
+@media screen and (max-width: 250px) {
+  .nav__menu {
+    display: none;
+  }
+}

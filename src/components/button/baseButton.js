@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.css";
+import "./button.css";
 
 const BaseButton = ({ btnData: { className, content } }) => {
   return <button className={className}>{content}</button>;
