@@ -7,7 +7,7 @@
 
 .what-we-do__ {
   max-width: 25em;
-  font-size: 15pt;
+  font-size: 16px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   margin: 3em;
 }
 .what-we-do__title {
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin: 0.1em 0em 0.5em 0em;
 }
 .what-we-do__discription {
@@ -29,9 +29,9 @@
 }
 .what-we-do__discription p {
   margin: 0.2em 0;
-  height: 6em;
+  height: 6.2em;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: fade fade;
 }
 .what-we-do__button {
   margin: 0.5em 0;
