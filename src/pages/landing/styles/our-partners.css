@@ -1,0 +1,10 @@
+.our-partners__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-partners__title {
+  font-size: 1.4em;
+  margin-bottom: 2.3em;
+}

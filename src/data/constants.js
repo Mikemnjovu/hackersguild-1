@@ -78,6 +78,6 @@ export const WORKSECTION = {
   discription:
     "Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.",
 };
-export const TEST = {
-  title: "test",
+export const OUR_PARTNERS = {
+  title: "Our Partners",
 };
