@@ -4,7 +4,7 @@
   color: #3aae84;
   background-color: #fff;
   padding: 0.7em 1.7em;
-  border: none;
+  border: 2px solid #fff;
   transition: ease;
   transition-duration: 80ms;
 }
