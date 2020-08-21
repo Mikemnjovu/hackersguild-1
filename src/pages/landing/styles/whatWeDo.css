@@ -30,8 +30,6 @@
 .what-we-do__discription p {
   margin: 0.2em 0;
   height: 6.2em;
-  overflow: hidden;
-  text-overflow: fade fade;
 }
 .what-we-do__button {
   margin: 0.5em 0;

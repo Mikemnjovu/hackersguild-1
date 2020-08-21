@@ -8,3 +8,15 @@
   font-size: 1.4em;
   margin-bottom: 2.3em;
 }
+.our-partners__open-energy-labs {
+  box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.1);
+  padding: 3em 1.1em;
+  height: 15em;
+}
+.our-partners__git-hub {
+  box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.1);
+
+  padding: 3em 1.1em;
+  height: 12.6em;
+  margin: 0.6em;
+}
