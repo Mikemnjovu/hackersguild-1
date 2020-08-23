@@ -6,6 +6,8 @@ import Year from "../../../utils/get-year";
 import CurrentYear from "../../../utils/get-year";
 import FacebookIcon from "../../../components/Img/icons/facecook";
 import ImageComp from "../../../components/Img/imageComp";
+import TwitterIcon from "../../../components/Img/icons/twitter";
+import InstagramIcon from "../../../components/Img/icons/instagram";
 const Footer = () => {
   console.log(Year);
   return (
@@ -14,17 +16,17 @@ const Footer = () => {
       <div className="footer__copywrite_container">
         <p>&copy; HackersGuild {CurrentYear()}</p>
       </div>
-      <div>
+      <div className="footer__social">
         <a href={SOCIAL_MEDIA.facebook}>
           <ImageComp imgSrc={<FacebookIcon />} />
         </a>
 
         <a href={SOCIAL_MEDIA.twitter}>
-          <ImageComp imgSrc={<FacebookIcon />} />
+          <ImageComp imgSrc={<TwitterIcon />} />
         </a>
 
         <a href={SOCIAL_MEDIA.instagram}>
-          <ImageComp imgSrc={<FacebookIcon />} />
+          <ImageComp imgSrc={<InstagramIcon />} />
         </a>
       </div>
     </div>
