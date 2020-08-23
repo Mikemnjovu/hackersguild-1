@@ -86,7 +86,7 @@ export const GET_IN_TOUCH = {
   decription:
     "Get In touch for inquereis. Find out more about us and what we do for you and the community. . Find out more about us and what we do for you and the community.. Find out more about us and what we do for you and the community.",
   button: {
-    className: "btn__normal",
+    className: "btn__normal-small",
     content: "Get in touch",
   },
 };
