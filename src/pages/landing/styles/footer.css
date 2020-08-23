@@ -1,0 +1,14 @@
+.footer__container {
+  color: #9c9c9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3em 0em;
+  font-weight: 400;
+  margin: 1em;
+}
+
+.footer__copywrite_container {
+  margin: 2em 0em;
+  text-align: center;
+}
