@@ -93,7 +93,7 @@ export const GET_IN_TOUCH = {
 export const NAV_LIST = [
   {
     page: {
-      title: "service",
+      title: "Services",
       link: "google.com",
     },
   },

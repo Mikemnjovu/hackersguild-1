@@ -12,6 +12,7 @@ const Footer = () => {
   console.log(Year);
   return (
     <div className="footer__container">
+      <hr />
       <NavList />
       <div className="footer__copywrite_container">
         <p>&copy; HackersGuild {CurrentYear()}</p>
