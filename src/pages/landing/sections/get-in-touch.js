@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/get-in-touch.css";
 import { GET_IN_TOUCH } from "../../../data/constants";
-import BaseButton from "../../../components/button/baseButton";
+import BaseButton from "../../../components/button/base-button";
 import Getintouchimg from "../../../assets/images/pngs/Get-in-touch.png";
 const Getintouch = () => {
   const {
@@ -16,7 +16,7 @@ const Getintouch = () => {
         <img src={Getintouchimg} />
       </div>
       <div className="get-in-touch__title">
-        <h2>{title}</h2>
+        <h1>{title}</h1>
       </div>
       <div className="get-in-touch__description">
         <p>{decription}</p>

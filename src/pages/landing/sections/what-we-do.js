@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/whatWeDo.css";
+import "../styles/what-we-do.css";
 import { SECTIONS, WHAT_WE_DO } from "../../../data/constants";
-import WhatWeDoItem from "../../../components/whatWeDoItem/whatWeDoItem";
+import WhatWeDoItem from "../../../components/what_we_do_item/what-we-do-item";
 import Hackerthon from "../../../components/Img/hackerthons";
-import SchoolClubs from "../../../components/Img/schoolClubs";
+import SchoolClubs from "../../../components/Img/school-clubs";
 
 const WhatWeDo = () => {
   const { hackerthons, bootCamps, schoolClubs } = WHAT_WE_DO;

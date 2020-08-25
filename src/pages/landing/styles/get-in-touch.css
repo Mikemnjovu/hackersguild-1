@@ -13,6 +13,8 @@
 }
 
 .get-in-touch__title {
+  font-size: 14px;
+  font-weight: 900;
   margin-bottom: 1em;
   padding: 0;
 }

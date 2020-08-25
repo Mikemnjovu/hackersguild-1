@@ -1,22 +1,27 @@
 .our-partners__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 2em;
 }
 .our-partners__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.4em;
   margin-bottom: 2.3em;
 }
-.our-partners__open-energy-labs {
-  box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.1);
-  padding: 3em 1.1em;
+.our-partners__img--component {
+  object-fit: contain;
+  width: 100%;
   height: 15em;
-}
-.our-partners__git-hub {
-  box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.1);
+  padding: 3em 1.5em;
 
-  padding: 3em 1.1em;
-  height: 12.6em;
-  margin: 0.6em;
+  box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.1);
+}
+
+.our-partners__contanier--imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  grid-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  grid-auto-rows: repeat(auto-fit, minmax(5em, 1fr));
 }
