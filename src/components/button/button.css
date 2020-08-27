@@ -77,8 +77,7 @@
 
   border: 2px solid #fff;
 }
-
-@media screen and (min-width:1004px){
+@media screen and (min-width:768px){
   .btn__normal{
     background-color: #3aae84;
     color:#fff;

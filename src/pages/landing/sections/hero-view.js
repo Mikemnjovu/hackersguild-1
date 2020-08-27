@@ -9,6 +9,9 @@ const HeroView = () => {
 
   return (
     <div className="hero">
+      <div className="hero__img--one">
+        <ImageComp imgSrc={HeroImage} />
+      </div>
       <div className="hero__text">
         <div>
           <h2 className="hero__title">{title}</h2>
@@ -16,12 +19,12 @@ const HeroView = () => {
         <div className="hero__content">
           <p>{content}</p>
         </div>
-        <div>
+        <div className="hero__btn">
           <BaseButton btnData={LANDING_IMAGE_DATA.button} />
         </div>
-        <div>
-          <ImageComp imgSrc={HeroImage} />
-        </div>
+      </div>
+      <div className="hero__img">
+        <ImageComp imgSrc={HeroImage} />
       </div>
     </div>
   );
