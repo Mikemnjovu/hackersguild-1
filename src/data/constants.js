@@ -90,3 +90,23 @@ export const GET_IN_TOUCH = {
     content: "Get in touch",
   },
 };
+export const NAV_LIST = [
+  {
+    page: {
+      title: "Services",
+      link: "google.com",
+    },
+  },
+  {
+    page: {
+      title: "Our Work",
+      link: "google.com",
+    },
+  },
+  {
+    page: {
+      title: "Let's talk",
+      link: "google.com",
+    },
+  },
+];

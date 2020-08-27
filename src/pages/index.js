@@ -5,6 +5,7 @@ import HeroView from "./landing/sections/hero-view";
 import WhatWeDo from "./landing/sections/what-we-do";
 import OutPartners from "./landing/sections/our-partners";
 import Getintouch from "./landing/sections/get-in-touch";
+import Footer from "./landing/sections/footer";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <WhatWeDo />
       <OutPartners />
       <Getintouch />
+      <Footer />
     </div>
   );
 }
