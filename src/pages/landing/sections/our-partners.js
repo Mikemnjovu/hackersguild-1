@@ -11,8 +11,8 @@ const OurPartners = () => {
         <h2>{OUR_PARTNERS.title}</h2>
       </div>
       <div className="our-partners__contanier--imgs">
-        <ImageComp imgSrc={OpenEnergyLabs} size={"size-lg"} />
-        <ImageComp imgSrc={Githublogo} />
+        <ImageComp imgSrc={OpenEnergyLabs} className={"our-partners__img--component"} size={"size-lg"} />
+        <ImageComp imgSrc={Githublogo} className={"our-partners__img--component"}/>
       </div>
     </div>
   );
