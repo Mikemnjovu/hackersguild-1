@@ -1,5 +1,5 @@
 import React from "react";
-import BaseButton from "../button/baseButton";
+import BaseButton from "../button/base-button";
 
 const WhatWeDoItem = (props) => {
   const { img } = props;

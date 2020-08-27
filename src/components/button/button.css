@@ -1,9 +1,28 @@
+/* Small buttons  */
+.btn__normal-small {
+  font-size: 1.3em;
+  font-weight: 800;
+  color: #3aae84;
+  background-color: #fff;
+  padding: 0.7em 1.6em;
+  border: 2px solid #fff;
+  transition: ease;
+  transition-duration: 80ms;
+}
+
+.btn__normal-small:hover {
+  color: #fff;
+  background-color: #3aae84;
+  border: solid 2px #fff;
+}
+
+/* Normal button */
 .btn__normal {
   font-size: 20pt;
   font-weight: 800;
   color: #3aae84;
   background-color: #fff;
-  padding: 0.7em 1.7em;
+  padding: 0.7em 1.6em;
   border: 2px solid #fff;
   transition: ease;
   transition-duration: 80ms;
@@ -14,6 +33,7 @@
   background-color: #3aae84;
   border: solid 2px #fff;
 }
+
 .btn__outline {
   font-size: 14pt;
   color: #3aae84;
@@ -23,6 +43,9 @@
   transition: ease;
   transition-duration: 80ms;
 }
+
+/* Button Outline black */
+
 .btn__outline-black {
   font-size: 14pt;
   color: #000;
@@ -38,6 +61,7 @@
 
   border: 2px solid #fff;
 }
+/* Button outline green */
 .btn__outline-green {
   font-size: 14pt;
   color: #3aae84;
