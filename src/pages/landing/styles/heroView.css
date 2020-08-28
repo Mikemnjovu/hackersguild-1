@@ -97,7 +97,7 @@
     
     background-color: #ffffff;
     color:#000;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     justify-content: start;
     margin-top:4em;
   }
