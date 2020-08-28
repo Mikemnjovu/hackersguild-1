@@ -15,14 +15,16 @@ const Getintouch = () => {
       <div className="get-in-touch__img">
         <img src={Getintouchimg} />
       </div>
-      <div className="get-in-touch__title">
-        <h1>{title}</h1>
-      </div>
-      <div className="get-in-touch__description">
-        <p>{decription}</p>
-      </div>
-      <div className="get-in-touch__button">
-        <BaseButton btnData={GET_IN_TOUCH.button} />
+      <div className="get-in-touch-text--container">
+        <div className="get-in-touch__title">
+          <h1>{title}</h1>
+        </div>
+        <div className="get-in-touch__description">
+          <p>{decription}</p>
+        </div>
+        <div className="get-in-touch__button">
+          <BaseButton btnData={GET_IN_TOUCH.button} />
+        </div>
       </div>
     </div>
   );
