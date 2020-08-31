@@ -42,7 +42,7 @@ grid-template-rows: repeat(auto-fit, minmax(10em, 1fr));
   height: 60px;
 }
 @media screen and (min-width:540px){
-  .what-we-do__section__title{
+   .what-we-do__section__title{
     font-size: 1.5em;
     margin-bottom:1.5em;
   }
