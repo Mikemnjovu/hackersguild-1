@@ -83,4 +83,9 @@
     color:#fff;
     border-color: #3aae84;
   }
+  .btn__normal:hover {
+    color: #3aae84;
+    background-color: #fff;
+    border: solid 2px #3aae84;
+  }
 }
