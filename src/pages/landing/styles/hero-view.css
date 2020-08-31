@@ -125,6 +125,7 @@
 /* @ Screen 1004px */
 
 @media screen and (min-width:1004px) {
+
   .hero {
     margin:0 5em;
     margin-top:2.9em;
@@ -149,7 +150,6 @@
 
   .hero__content {
     width: 40em;
-    font-size: 18px;
     text-align: left;
     
   }
