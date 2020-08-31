@@ -1,7 +1,7 @@
 import React from "react";
 import { LANDING_IMAGE_DATA } from "../../../data/constants";
 import HeroImage from "../../../assets/images/Icons/HeroImage.png";
-import "../styles/heroView.css";
+import "../styles/hero-view.css";
 import BaseButton from "../../../components/button/base-button";
 import ImageComp from "../../../components/Img/image-componet";
 const HeroView = () => {
