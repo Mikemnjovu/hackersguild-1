@@ -4,12 +4,11 @@ import "../styles/footer.css";
 import NavList from "../../../components/nav-list/nav-list";
 import CurrentYear from "../../../utils/get-year";
 import ImageComp from "../../../components/Img/image-componet";
-import FacebookIcon from '../../../assets/images/Icons/facebook.png'
-import TwitterIcon from '../../../assets/images/Icons/VectorEmail.png'
-import InstagramIcon from '../../../assets/images/Icons/linkdin.png'
+import FacebookIcon from "../../../assets/images/Icons/facebook.png";
+import TwitterIcon from "../../../assets/images/Icons/twitter.png";
+import InstagramIcon from "../../../assets/images/Icons/instagram.png";
 
 const Footer = () => {
-
   return (
     <div className="footer__container">
       <hr />
@@ -19,15 +18,15 @@ const Footer = () => {
       </div>
       <div className="footer__social">
         <a href={SOCIAL_MEDIA.facebook}>
-          <ImageComp imgSrc={FacebookIcon } />
+          <ImageComp imgSrc={FacebookIcon} />
         </a>
 
         <a href={SOCIAL_MEDIA.twitter}>
-          <ImageComp imgSrc={TwitterIcon  }/>
+          <ImageComp imgSrc={TwitterIcon} />
         </a>
 
         <a href={SOCIAL_MEDIA.instagram}>
-          <ImageComp imgSrc={InstagramIcon } />
+          <ImageComp imgSrc={InstagramIcon} />
         </a>
       </div>
     </div>
