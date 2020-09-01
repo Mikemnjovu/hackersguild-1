@@ -5,7 +5,6 @@ import { NAV } from "../../data/constants";
 import "./nav.css";
 import BaseButton from "../button/base-button";
 const Nav = () => {
-  console.log(NAV.button);
   return (
     <div className="nav">
       <div className="nav__brand">
