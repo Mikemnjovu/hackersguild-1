@@ -25,7 +25,7 @@
   grid-auto-rows: repeat(auto-fit, minmax(5em, 1fr));
 }
 @media screens and(min-width:768px){
-  .our-partners__title {
-    font-size:
+  .our-partners__title h1{
+    font-size: 1.5em;
   }
 }

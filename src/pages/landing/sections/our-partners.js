@@ -8,11 +8,18 @@ const OurPartners = () => {
   return (
     <div className="our-partners__container">
       <div className="our-partners__title">
-        <h2>{OUR_PARTNERS.title}</h2>
+        <h1>{OUR_PARTNERS.title}</h1>
       </div>
       <div className="our-partners__contanier--imgs">
-        <ImageComp imgSrc={OpenEnergyLabs} className={"our-partners__img--component"} size={"size-lg"} />
-        <ImageComp imgSrc={Githublogo} className={"our-partners__img--component"}/>
+        <ImageComp
+          imgSrc={OpenEnergyLabs}
+          className={"our-partners__img--component"}
+          size={"size-lg"}
+        />
+        <ImageComp
+          imgSrc={Githublogo}
+          className={"our-partners__img--component"}
+        />
       </div>
     </div>
   );
