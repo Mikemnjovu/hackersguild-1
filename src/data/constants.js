@@ -20,7 +20,7 @@ export const LANDING_IMAGE_DATA = {
     "Innovative educational services in computer science and  programming training, youth development and workforce development. ",
   button: {
     className: "btn__normal",
-    content: "Subscribe",
+    content: "Get in touch",
   },
 };
 export const NAV = {
