@@ -26,7 +26,7 @@ export const LANDING_IMAGE_DATA = {
 export const NAV = {
   button: {
     className: "btn__outline-black",
-    content: "Learn more",
+    content: "Contact us",
   },
 };
 export const OUR_SERVICES = {
@@ -99,14 +99,14 @@ export const NAV_LIST = [
   },
   {
     page: {
-      title: "Our Work",
+      title: "Partners",
       link: "google.com",
     },
   },
   {
     page: {
       title: "Let's talk",
-      link: "google.com",
+      link: "https://web.facebook.com/thehackersguild/",
     },
   },
 ];
