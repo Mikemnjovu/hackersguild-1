@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   margin-bottom: 2.3em;
 }
 .our-partners__img--component {
@@ -24,8 +24,8 @@
   align-items: center;
   grid-auto-rows: repeat(auto-fit, minmax(5em, 1fr));
 }
-@media screens and(min-width:768px){
-  .our-partners__title h1{
+@media screen and (min-width:768px){
+  .our-partners__title {
     font-size: 1.5em;
   }
 }
