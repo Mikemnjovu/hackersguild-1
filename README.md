@@ -2,7 +2,7 @@
 
 ### DEVELOPMENT GUIDES
 #### Folders
-written as Project_data
+written as project_data
 #### Files
 written as fetch-data.js
 
