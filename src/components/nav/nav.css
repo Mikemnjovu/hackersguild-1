@@ -27,6 +27,8 @@
 .nav-container__list {
   max-width: auto;
   display: none;
+  margin-right:4em;
+  
 }
 
 @media screen and (min-width: 880px) {
@@ -54,7 +56,6 @@
   .nav__item {
     color: white;
     display: flex;
-    margin-right: 2em;
   }
   .nav__link {
     text-decoration: none;
