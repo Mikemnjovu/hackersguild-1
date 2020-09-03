@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer__container">
       <hr />
-      <NavList />
+      <NavList className={"footer__item"} />
       <div className="footer__copywrite_container">
         <p>&copy; HackersGuild {CurrentYear()}</p>
       </div>

@@ -105,12 +105,6 @@ export const NAV_LIST = [
   },
   {
     page: {
-      title: "Let's talk",
-      link: "https://web.facebook.com/thehackersguild/",
-    },
-  },
-  {
-    page: {
       title: "Events",
       link: "https://web.facebook.com/thehackersguild/",
     },

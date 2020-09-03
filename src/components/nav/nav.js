@@ -4,6 +4,7 @@ import menu from "../../assets/images/pngs/menu.png";
 import { NAV } from "../../data/constants";
 import "./nav.css";
 import BaseButton from "../button/base-button";
+import NavList from "../nav-list/nav-list";
 const Nav = () => {
   return (
     <div className="nav">
@@ -13,19 +14,7 @@ const Nav = () => {
       <div className="nav-container__list">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#" className="nav__link">
-              Home
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#" className="nav__link">
-              Services
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#" className="nav__link">
-              Our work
-            </a>
+            <NavList className={"nav__list"} />
           </li>
           <li className="nav__item">
             <BaseButton btnData={NAV.button} />

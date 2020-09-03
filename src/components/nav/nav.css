@@ -54,7 +54,7 @@
   .nav__item {
     color: white;
     display: flex;
-    margin-right: 4em;
+    margin-right: 2em;
   }
   .nav__link {
     text-decoration: none;
