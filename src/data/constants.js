@@ -27,6 +27,7 @@ export const NAV = {
   button: {
     className: "btn__outline-black",
     content: "Contact us",
+    href: "#get-in-touch",
   },
 };
 export const OUR_SERVICES = {
@@ -94,13 +95,13 @@ export const NAV_LIST = [
   {
     page: {
       title: "Services",
-      link: "google.com",
+      link: "#what-we-do",
     },
   },
   {
     page: {
       title: "Partners",
-      link: "google.com",
+      link: "#our-partners",
     },
   },
   {

@@ -10,7 +10,7 @@ const WhatWeDo = () => {
   const whatWeDo = SECTIONS.firsSection;
 
   return (
-    <div className="what-we-do">
+    <div className="what-we-do" id="what-we-do">
       <div className="what-we-do__section__title">
         <h1>{whatWeDo}</h1>
       </div>

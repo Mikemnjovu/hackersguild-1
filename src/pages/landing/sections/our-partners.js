@@ -6,7 +6,7 @@ import "../styles/our-partners.css";
 import { OUR_PARTNERS } from "../../../data/constants.js";
 const OurPartners = () => {
   return (
-    <div className="our-partners__container">
+    <div className="our-partners__container" id="our-partners">
       <div className="our-partners__title">
         <h1>{OUR_PARTNERS.title}</h1>
       </div>
