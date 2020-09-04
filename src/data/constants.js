@@ -20,13 +20,14 @@ export const LANDING_IMAGE_DATA = {
     "Innovative educational services in computer science and  programming training, youth development and workforce development. ",
   button: {
     className: "btn__normal",
-    content: "Subscribe",
+    content: "Get in touch",
   },
 };
 export const NAV = {
   button: {
     className: "btn__outline-black",
-    content: "Learn more",
+    content: "Contact us",
+    href: "#get-in-touch",
   },
 };
 export const OUR_SERVICES = {
@@ -94,19 +95,19 @@ export const NAV_LIST = [
   {
     page: {
       title: "Services",
-      link: "google.com",
+      link: "#what-we-do",
     },
   },
   {
     page: {
-      title: "Our Work",
-      link: "google.com",
+      title: "Partners",
+      link: "#our-partners",
     },
   },
   {
     page: {
-      title: "Let's talk",
-      link: "google.com",
+      title: "Events",
+      link: "https://web.facebook.com/thehackersguild/",
     },
   },
 ];

@@ -3,12 +3,12 @@ import React from "react";
 const ImageComp = ({
   imgSrc,
   size,
-  defualsize = "our-partners__img--component",
+  className
 }) => {
   console.log(size);
   return (
     <div>
-      <img className={defualsize} src={imgSrc} alt="test" />
+      <img className={className} src={imgSrc} alt="test" />
     </div>
   );
 };
