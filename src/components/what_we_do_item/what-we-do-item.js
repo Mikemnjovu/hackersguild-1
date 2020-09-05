@@ -1,6 +1,7 @@
 import React from "react";
 import BaseButton from "../button/base-button";
 import ImageComp from "../Img/image-componet";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 const WhatWeDoItem = (props) => {
   const { img } = props;

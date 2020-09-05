@@ -1,20 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../styles/global-styles.css";
 import NavBar from "../components/nav_bar/nav-bar";
-import HeroView from "./landing/sections/hero-view";
-import WhatWeDo from "./landing/sections/what-we-do";
-import OutPartners from "./landing/sections/our-partners";
-import Getintouch from "./landing/sections/get-in-touch";
 import Footer from "./landing/sections/footer";
+import LandingPage from "./landing";
+import LearnMore from "./learn_more/learn-more";
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HeroView />
-      <WhatWeDo />
-      <OutPartners />
-      <Getintouch />
-      <Footer />
+      <Router>
+        <NavBar />
+        <LandingPage />
+        <Footer />
+        <Switch>
+          <Route exact path="/learn_more">
+            <LearnMore />
+          </Route>
+          <Route path="/" />
+        </Switch>
+      </Router>
     </div>
   );
 }
