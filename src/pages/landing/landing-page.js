@@ -5,7 +5,7 @@ import Getintouch from "./sections/get-in-touch";
 import OutPartners from "./sections/our-partners";
 import "./landing-page.css";
 
-const LangingPage = () => {
+const LandingPage = () => {
   return (
     <div>
       <div className="circle">
@@ -19,4 +19,4 @@ const LangingPage = () => {
   );
 };
 
-export default LangingPage;
+export default LandingPage;
