@@ -46,6 +46,7 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
+      page: "Hackerthons",
     },
     imgAlt: "hackerthons",
   },
@@ -57,6 +58,7 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
+      page: "Hackerthons",
     },
     imgAlt: "school clubs",
   },
@@ -68,6 +70,7 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
+      page: "Hackerthons",
     },
 
     imgAlt: "boot camp",
