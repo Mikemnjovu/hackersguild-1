@@ -11,15 +11,19 @@ const OurPartners = () => {
         <h1>{OUR_PARTNERS.title}</h1>
       </div>
       <div className="our-partners__contanier--imgs">
-        <ImageComp
-          imgSrc={OpenEnergyLabs}
-          className={"our-partners__img--component"}
-          size={"size-lg"}
-        />
-        <ImageComp
-          imgSrc={Githublogo}
-          className={"our-partners__img--component"}
-        />
+        <a href="https://openenergylabs.co/">
+          <ImageComp
+            imgSrc={OpenEnergyLabs}
+            className={"our-partners__img--component"}
+            size={"size-lg"}
+          />
+        </a>
+        <a href="https://education.github.com/">
+          <ImageComp
+            imgSrc={Githublogo}
+            className={"our-partners__img--component"}
+          />
+        </a>
       </div>
     </div>
   );
