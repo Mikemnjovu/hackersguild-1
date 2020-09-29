@@ -28,6 +28,7 @@ export const NAV = {
     className: "btn__outline-black",
     content: "Contact us",
     href: "#get-in-touch",
+    mailTo: "mailto:contactus@hackersguild.org",
   },
 };
 export const OUR_SERVICES = {
