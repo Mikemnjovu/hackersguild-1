@@ -9,7 +9,6 @@ const Getintouch = () => {
     decription,
     button: { className, content },
   } = GET_IN_TOUCH;
-  console.log(title, decription, className, content);
   return (
     <div className="get-in-touch__container" id="get-in-touch">
       <div className="get-in-touch__img">

@@ -90,8 +90,9 @@ export const GET_IN_TOUCH = {
   decription:
     "Get In touch for inquereis. Find out more about us and what we do for you and the community. . Find out more about us and what we do for you and the community.. Find out more about us and what we do for you and the community.",
   button: {
-    className: "btn__normal-small",
+    className: "btn__normal-small atag-style",
     content: "Get in touch",
+    mailTo: "mailto:contactus@hackersguild.org",
   },
 };
 export const NAV_LIST = [
