@@ -9,8 +9,8 @@ import LearnMore from "./learn_more/learn-more";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Router>
+        <NavBar />
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route path="/learn_more" component={LearnMore} />

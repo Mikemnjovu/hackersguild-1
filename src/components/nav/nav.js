@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import hGLogo from "../../assets/images/HGLogo.png";
 import menu from "../../assets/images/pngs/menu.png";
 import { NAV } from "../../data/constants";
@@ -26,11 +27,19 @@ const Nav = () => {
     );
   };
   // console.log(menuShow);
+  const history = useHistory();
+
+  const backToHome = () => {
+    history.push("/");
+    history.go("/");
+  };
   return (
     <div className="nav">
       <div className="nav__branding_menu">
         <div className="nav__brand">
-          <img className="nav__logo" src={hGLogo} alt="hackers guild logo" />
+          <a href="/" onClick={backToHome}>
+            <img className="nav__logo" src={hGLogo} alt="hackers guild logo" />
+          </a>
         </div>
         <div className="nav__web_view">{menuItems()}</div>
 
