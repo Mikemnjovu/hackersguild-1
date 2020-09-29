@@ -4,14 +4,14 @@ import "../styles/footer.css";
 import NavList from "../../../components/nav-list/nav-list";
 import CurrentYear from "../../../utils/get-year";
 import ImageComp from "../../../components/Img/image-componet";
-import FacebookIcon from "../../../assets/images/Icons/facebook.png";
-import TwitterIcon from "../../../assets/images/Icons/twitter.png";
-import InstagramIcon from "../../../assets/images/Icons/instagram.png";
+import FacebookIcon from "../../../assets/images/Icons/Sorted Icons/png/facebook.png";
+import TwitterIcon from "../../../assets/images/Icons/Sorted Icons/png/twitter.png";
+import InstagramIcon from "../../../assets/images/Icons/Sorted Icons/png/instagram-2.png";
 
 const Footer = () => {
   return (
     <div className="footer__container">
-      <hr />
+      {/* <hr /> */}
       <NavList className={"footer__item"} />
       <div className="footer__copywrite_container">
         <p>&copy; HackersGuild {CurrentYear()}</p>
