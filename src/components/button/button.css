@@ -31,6 +31,8 @@
   border: 2px solid #3aae84;
   transition: ease;
   transition-duration: 80ms;
+
+  text-decoration: none;
 }
 
 .btn__normal:hover {
@@ -52,7 +54,8 @@
 /* Button Outline black */
 
 .btn__outline-black {
-  font-size: 14pt;
+  font-size: 20pt;
+  font-weight: 400;
   color: #000;
   padding: 0.7em 1.7em;
   background-color: white;

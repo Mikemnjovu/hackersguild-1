@@ -4,7 +4,9 @@ import "../styles/global-styles.css";
 import NavBar from "../components/nav_bar/nav-bar";
 import Footer from "./landing/sections/footer";
 import LandingPage from "./landing/landing-page";
-import LearnMore from "./learn_more/learn-more";
+import HackerthonsPage from "./learn_more/hackerthons";
+import BootstrapPage from "./learn_more/bootstrap";
+import SchoolClubsPage from "./learn_more/school-clubs";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/learn_more" component={LearnMore} />
+          <Route path="/learn_more/hackerthons" component={HackerthonsPage} />
+          <Route path="/learn_more/bootstrap" component={BootstrapPage} />
+          <Route path="/learn_more/school_clubs" component={SchoolClubsPage} />
         </Switch>
       </Router>
       <Footer />

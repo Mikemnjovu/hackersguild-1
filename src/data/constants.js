@@ -21,6 +21,7 @@ export const LANDING_IMAGE_DATA = {
   button: {
     className: "btn__normal",
     content: "Get in touch",
+    href: "#get-in-touch",
   },
 };
 export const NAV = {
@@ -47,7 +48,8 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
-      page: "Hackerthons",
+      page: "hackerthons",
+      pageButton: "Apply Now",
     },
     imgAlt: "hackerthons",
   },
@@ -59,7 +61,7 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
-      page: "Hackerthons",
+      pageButton: "Join one at your school",
     },
     imgAlt: "school clubs",
   },
@@ -71,7 +73,8 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
-      page: "Hackerthons",
+      page: "bootcumps",
+      pageButton: "Apply Now",
     },
 
     imgAlt: "boot camp",
@@ -92,7 +95,7 @@ export const GET_IN_TOUCH = {
     "Get In touch for inquereis. Find out more about us and what we do for you and the community. . Find out more about us and what we do for you and the community.. Find out more about us and what we do for you and the community.",
   button: {
     className: "btn__normal-small atag-style",
-    content: "Get in touch",
+    content: "Email us Now!",
     mailTo: "mailto:contactus@hackersguild.org",
   },
 };

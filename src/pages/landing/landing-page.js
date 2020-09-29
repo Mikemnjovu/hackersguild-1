@@ -11,6 +11,7 @@ const LandingPage = () => {
       <div className="circle">
         <div className="circle__item"></div>
       </div>
+
       <HeroView />
       <WhatWeDo />
       <OutPartners />

@@ -5,23 +5,61 @@ import "./button.css";
 const BaseButton = ({
   btnData: { className, content, href, page, mailTo },
 }) => {
-  console.log(mailTo);
+  console.log(page);
   const history = useHistory();
-  const Hackerthons = () => {
-    history.push("/learn_more");
-    history.go("/learn_more");
+  const hackerthons = () => {
+    history.push("/learn_more/hackerthons");
+    history.go("/learn_more/hackerthons");
   };
-  if (mailTo) {
+  const bootstrap = () => {
+    history.push("/learn_more/bootstrap");
+    history.go("/learn_more/bootstrap");
+  };
+  const schoolClubs = () => {
+    history.push("/learn_more/school_clubs");
+    history.go("/learn_more/school_clubs");
+  };
+
+  // switch (
+  //   {
+  //     btnData: { className, content, href, page, mailTo },
+  //   }
+  // ) {
+  //   case hackerthons:
+  //     return (
+  //       <button onClick={hackerthons = () => {
+  //         history.push("/learn_more/hackerthons");
+  //         history.go("/learn_more/hackerthons");
+  //       }} className={className}>
+  //         {content}
+  //       </button>)
+
+  //     break;
+  //   default:
+  //     return (
+  //       <a href={mailTo} className={className}>
+  //         {content}
+  //       </a>
+  //     );
+  // }
+
+  if (page) {
     return (
-      <a href={mailTo} className={className}>
+      <button onClick={hackerthons} className={className}>
+        {content}
+      </button>
+    );
+  } else if (href) {
+    return (
+      <a href={href} className={className}>
         {content}
       </a>
     );
   } else {
     return (
-      <button onClick={Hackerthons} className={className}>
+      <a href={mailTo} className={className}>
         {content}
-      </button>
+      </a>
     );
   }
 };

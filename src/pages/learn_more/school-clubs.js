@@ -3,7 +3,15 @@ import Hackerthons from "../../assets/images/pngs/hackerthons.png";
 import ImageComp from "../../components/Img/image-componet";
 import "./learn-more.css";
 import BaseButton from "../../components/button/base-button";
-const LearnMore = ({ title, discription, button }) => {
+import { WHAT_WE_DO } from "../../data/constants";
+const SchoolClubsPage = () => {
+  const {
+    schoolClubs: {
+      title,
+      discription,
+      button: { pageButton },
+    },
+  } = WHAT_WE_DO;
   return (
     <div className="learn_more__conatiner">
       <div className="learn_more__text">
@@ -11,7 +19,7 @@ const LearnMore = ({ title, discription, button }) => {
         <p>{discription}</p>
         <BaseButton
           btnData={{
-            content: "Participate ",
+            content: pageButton,
             className: "btn__normal",
           }}
         />
@@ -23,4 +31,4 @@ const LearnMore = ({ title, discription, button }) => {
   );
 };
 
-export default LearnMore;
+export default SchoolClubsPage;
