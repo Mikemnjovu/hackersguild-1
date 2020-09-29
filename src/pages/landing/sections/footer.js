@@ -11,7 +11,7 @@ import InstagramIcon from "../../../assets/images/Icons/instagram.png";
 const Footer = () => {
   return (
     <div className="footer__container">
-      <hr />
+      {/* <hr /> */}
       <NavList className={"footer__item"} />
       <div className="footer__copywrite_container">
         <p>&copy; HackersGuild {CurrentYear()}</p>
