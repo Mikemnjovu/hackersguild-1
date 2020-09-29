@@ -1,5 +1,6 @@
 .our-partners__container {
   margin: 2em;
+  height:60vh;
 }
 .our-partners__title {
   display: flex;

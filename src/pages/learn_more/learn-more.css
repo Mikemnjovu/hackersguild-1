@@ -1,0 +1,24 @@
+.learn_more__conatiner {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 80.4vh;
+	align-items: center;
+}
+.learn_more__text{
+max-width: 23em;
+}
+
+
+@media screen and (min-width: 1004px){
+.learn_more__conatiner {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	min-height: 80.4vh;
+	align-items: center;
+}
+.learn_more__text{
+max-width: 23em;
+}	
+}

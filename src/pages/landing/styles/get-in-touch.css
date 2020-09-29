@@ -1,6 +1,7 @@
 .get-in-touch__container {
   max-width: 100%;
   display: grid;
+  min-height:10vh;
  grid-template-columns: repeat(auto-fit, minmax(19em, 1fr));
  grid-template-rows: repeat(auto-fit, minmax(2em, 1fr));
   align-items: center;
@@ -9,7 +10,7 @@
   color: #fff;
   padding: 0em 1em 5em 1em;
   background-color: #3aae84;
-  margin: 1em;
+  margin: 3em;
   border-radius: 1em;
   box-shadow: 1.5px 2px 20px 1px rgb(0, 0, 0, 0.3);
 }
