@@ -10,11 +10,9 @@ const BaseButton = ({ btnData: { className, content, href, page } }) => {
     history.go("/learn_more");
   };
   return (
-    <a href={href}>
-      <button onClick={Hackerthons} className={className}>
-        {content}
-      </button>
-    </a>
+    <button onClick={Hackerthons} className={className}>
+      {content}
+    </button>
   );
 };
 
