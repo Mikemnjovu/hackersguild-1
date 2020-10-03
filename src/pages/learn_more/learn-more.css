@@ -16,6 +16,9 @@
   margin-bottom: 2em;
   font-size: 20px;
 }
+.learn_more__image {
+  max-height: 20em;
+}
 
 @media screen and (min-width: 1004px) {
   .learn_more__conatiner {
