@@ -17,12 +17,14 @@ const SchoolClubsPage = () => {
       <div className="learn_more__text">
         <h1>{title} </h1>
         <p>{discription}</p>
-        <BaseButton
-          btnData={{
-            content: pageButton,
-            className: "btn__normal",
-          }}
-        />
+        <div className="learn_more__button">
+          <BaseButton
+            btnData={{
+              content: pageButton,
+              className: "btn__normal",
+            }}
+          />
+        </div>
       </div>
       <div className="learn_more__image">
         <ImageComp imgSrc={SchoolClubs} className={"learn_more__image"} />
