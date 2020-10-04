@@ -20,37 +20,6 @@ const BaseButton = ({
     history.go("/learn_more/school_clubs");
   };
 
-  // switch (page) {
-  //   case page.hackerthonsBool:
-  //     return (
-  //       <button onClick={hackerthons} className={className}>
-  //         {content}
-  //       </button>
-  //     );
-
-  //     break;
-  //   case "schoolclubs":
-  //     return (
-  //       <button onClick={hackerthons} className={className}>
-  //         {content}
-  //       </button>
-  //     );
-  //     break;
-  //   case "bootcamps":
-  //     return (
-  //       <button onClick={hackerthons} className={className}>
-  //         {content}
-  //       </button>
-  //     );
-  //     break;
-  //   default:
-  //     return (
-  //       <a href={mailTo} className={className}>
-  //         {content}
-  //       </a>
-  //     );
-  // }
-
   if (page) {
     if (page.hackerthonsBool) {
       return (
