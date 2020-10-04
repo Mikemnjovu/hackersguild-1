@@ -1,6 +1,6 @@
 .our-partners__container {
   margin: 2em;
-  height:60vh;
+  max-height: 100vh;
 }
 .our-partners__title {
   display: flex;
@@ -25,7 +25,7 @@
   align-items: center;
   grid-auto-rows: repeat(auto-fit, minmax(5em, 1fr));
 }
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .our-partners__title {
     font-size: 1.5em;
   }
