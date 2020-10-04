@@ -11,29 +11,37 @@ const BaseButton = ({
     history.push("/learn_more/hackerthons");
     history.go("/learn_more/hackerthons");
   };
-  const bootstrap = () => {
-    history.push("/learn_more/bootstrap");
-    history.go("/learn_more/bootstrap");
+  const bootcamps = () => {
+    history.push("/learn_more/bootcamp");
+    history.go("/learn_more/bootcamps");
   };
   const schoolClubs = () => {
     history.push("/learn_more/school_clubs");
     history.go("/learn_more/school_clubs");
   };
 
-  // switch (
-  //   {
-  //     btnData: { className, content, href, page, mailTo },
-  //   }
-  // ) {
-  //   case hackerthons:
+  // switch (page) {
+  //   case page.hackerthonsBool:
   //     return (
-  //       <button onClick={hackerthons = () => {
-  //         history.push("/learn_more/hackerthons");
-  //         history.go("/learn_more/hackerthons");
-  //       }} className={className}>
+  //       <button onClick={hackerthons} className={className}>
   //         {content}
-  //       </button>)
+  //       </button>
+  //     );
 
+  //     break;
+  //   case "schoolclubs":
+  //     return (
+  //       <button onClick={hackerthons} className={className}>
+  //         {content}
+  //       </button>
+  //     );
+  //     break;
+  //   case "bootcamps":
+  //     return (
+  //       <button onClick={hackerthons} className={className}>
+  //         {content}
+  //       </button>
+  //     );
   //     break;
   //   default:
   //     return (
@@ -44,11 +52,26 @@ const BaseButton = ({
   // }
 
   if (page) {
-    return (
-      <button onClick={hackerthons} className={className}>
-        {content}
-      </button>
-    );
+    if (page.hackerthonsBool) {
+      return (
+        <button onClick={hackerthons} className={className}>
+          {content}
+        </button>
+      );
+    }
+    if (page.bootcampsBool) {
+      return (
+        <button onClick={bootcamps} className={className}>
+          {content}
+        </button>
+      );
+    } else {
+      return (
+        <button onClick={schoolClubs} className={className}>
+          {content}
+        </button>
+      );
+    }
   } else if (href) {
     return (
       <a href={href} className={className}>

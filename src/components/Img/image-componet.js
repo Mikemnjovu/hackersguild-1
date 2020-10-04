@@ -1,11 +1,6 @@
 import React from "react";
 
-const ImageComp = ({
-  imgSrc,
-  size,
-  className
-}) => {
-  console.log(size);
+const ImageComp = ({ imgSrc, size, className }) => {
   return (
     <div>
       <img className={className} src={imgSrc} alt="test" />

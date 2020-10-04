@@ -48,7 +48,11 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
-      page: "hackerthons",
+      page: {
+        hackerthonsBool: true,
+        bootcampsBool: false,
+        schoolclubsBool: false,
+      },
       pageButton: "Apply Now",
     },
     imgAlt: "hackerthons",
@@ -61,6 +65,11 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
+      page: {
+        hackerthonsBool: false,
+        bootcampsBool: false,
+        schoolclubsBool: true,
+      },
       pageButton: "Join one at your school",
     },
     imgAlt: "school clubs",
@@ -73,7 +82,11 @@ export const WHAT_WE_DO = {
     button: {
       className: "btn__outline-green",
       content: "Learn more",
-      page: "bootcumps",
+      page: {
+        hackerthonsBool: false,
+        bootcampsBool: true,
+        schoolclubsBool: false,
+      },
       pageButton: "Apply Now",
     },
 

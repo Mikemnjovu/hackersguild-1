@@ -1,5 +1,5 @@
 import React from "react";
-import Hackerthons from "../../assets/images/pngs/hackerthons.png";
+import SchoolClubs from "../../assets/images/pngs/school-club.png";
 import ImageComp from "../../components/Img/image-componet";
 import "./learn-more.css";
 import BaseButton from "../../components/button/base-button";
@@ -25,7 +25,7 @@ const SchoolClubsPage = () => {
         />
       </div>
       <div className="learn_more__image">
-        <ImageComp imgSrc={Hackerthons} className={"learn_more__image"} />
+        <ImageComp imgSrc={SchoolClubs} className={"learn_more__image"} />
       </div>
     </div>
   );

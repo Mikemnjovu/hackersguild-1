@@ -2,10 +2,7 @@ import React from "react";
 import BaseButton from "../button/base-button";
 import ImageComp from "../Img/image-componet";
 
-const WhatWeDoItem = (props) => {
-  const { img } = props;
-  const { title, discription, button } = props.props;
-
+const WhatWeDoItem = ({ props: { title, discription, button }, img }) => {
   return (
     <div>
       <div className="what-we-do__">
