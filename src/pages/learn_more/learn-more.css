@@ -47,7 +47,7 @@
     align-items: center;
   }
   .learn_more__image {
-    max-height: 20em;
+    max-height: 20em; 
     max-width: 34em;
   }
   .learn_more__button a {
