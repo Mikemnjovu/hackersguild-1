@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
 import hGLogo from "../../assets/images/HGLogo.png";
 import menu from "../../assets/images/pngs/menu.png";
 import { NAV } from "../../data/constants";
 import "./nav.css";
 import BaseButton from "../button/base-button";
 import NavList from "../nav-list/nav-list";
+import { BackToHome } from "../../utils/navgation/back-to-home";
+
 const Nav = () => {
   const [menuShow, setMenushow] = useState(false);
   const buttonMenuHandler = () => {
@@ -26,18 +27,12 @@ const Nav = () => {
       </div>
     );
   };
-  // console.log(menuShow);
-  const history = useHistory();
 
-  const backToHome = () => {
-    history.push("/");
-    history.go("/");
-  };
   return (
     <div className="nav">
       <div className="nav__branding_menu">
         <div className="nav__brand">
-          <a href="/" onClick={backToHome}>
+          <a href="/" onClick={BackToHome}>
             <img className="nav__logo" src={hGLogo} alt="hackers guild logo" />
           </a>
         </div>

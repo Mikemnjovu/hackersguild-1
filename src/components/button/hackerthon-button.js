@@ -1,17 +1,11 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { OnClickRouter } from "../../utils/navgation/button-on-click-router";
 import "./button.css";
 
 const HackerthonsBtn = ({ btnData: { className, content, page } }) => {
-  console.log(page);
-  const history = useHistory("");
-  const hackerthons = () => {
-    history.push("/learn_more/hackerthons");
-    history.go("/learn_more/hackerthons");
-  };
-
+  const url = "/learn_more/hackerthons";
   return (
-    <button onClick={hackerthons} className={className}>
+    <button onClick={OnClickRouter(url)} className={className}>
       {content}
     </button>
   );

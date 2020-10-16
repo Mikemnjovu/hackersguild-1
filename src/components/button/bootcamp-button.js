@@ -1,18 +1,15 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { OnClickRouter } from "../../utils/navgation/button-on-click-router";
 import "./button.css";
 
 const BoootCampsBtn = ({
   btnData: { className, content, href, page, mailTo },
 }) => {
   console.log(page);
-  const history = useHistory();
-  const bootcamp = () => {
-    history.push("/learn_more/bootcamps");
-    history.go("/learn_more/bootcamps");
-  };
+  const url = "/learn_more/bootcamps";
+
   return (
-    <button onClick={bootcamp} className={className}>
+    <button onClick={OnClickRouter(url)} className={className}>
       {content}
     </button>
   );
