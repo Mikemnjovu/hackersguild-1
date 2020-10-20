@@ -6,7 +6,9 @@ const NavList = ({ className }) => {
     <div>
       <div className={className}>
         {NAV_LIST.map((a) => (
-          <a href={a.page.link}> {a.page.title}</a>
+          <a key={a.id} href={a.page.link}>
+            {a.page.title}
+          </a>
         ))}
       </div>
     </div>

@@ -1,10 +1,9 @@
 .footer__container {
   background-color: #354e45;
   color: #ffffff;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
-  /* padding: 3em 0em 1em 0; */
   font-weight: 400;
   margin: 1em 0em 0em 0em;
 }
@@ -32,6 +31,7 @@
 
 @media screen and (min-width: 1004px) {
   .footer__container {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;

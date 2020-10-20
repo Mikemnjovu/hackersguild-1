@@ -1,4 +1,9 @@
-.social__container {
+/* .social__container {
+} */
+.default__styles {
+  display: none;
+  height: 2em;
+  object-fit: contain;
 }
 
 .social__img {

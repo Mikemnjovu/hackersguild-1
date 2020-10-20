@@ -114,18 +114,21 @@ export const GET_IN_TOUCH = {
 };
 export const NAV_LIST = [
   {
+    id: 1,
     page: {
       title: "Services",
       link: "#what-we-do",
     },
   },
   {
+    id: 2,
     page: {
       title: "Partners",
       link: "#our-partners",
     },
   },
   {
+    id: 3,
     page: {
       title: "Events",
       link: "https://web.facebook.com/thehackersguild/",

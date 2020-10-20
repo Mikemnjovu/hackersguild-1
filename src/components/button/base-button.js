@@ -5,7 +5,6 @@ import "./button.css";
 const BaseButton = ({
   btnData: { className, content, href, page, mailTo },
 }) => {
-  console.log(page);
   const history = useHistory();
   const hackerthons = () => {
     history.push("/learn_more/hackerthons");

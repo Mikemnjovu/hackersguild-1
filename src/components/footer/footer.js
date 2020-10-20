@@ -1,12 +1,12 @@
 import React from "react";
-import { SOCIAL_MEDIA } from "../../../data/constants";
-import "../styles/footer.css";
-import NavList from "../../../components/nav-list/nav-list";
-import CurrentYear from "../../../utils/get-year";
-import ImageComp from "../../../components/Img/image-componet";
-import FacebookIcon from "../../../assets/images/Icons/Sorted Icons/png/facebook.png";
-import TwitterIcon from "../../../assets/images/Icons/Sorted Icons/png/twitter.png";
-import InstagramIcon from "../../../assets/images/Icons/Sorted Icons/png/instagram-2.png";
+import { SOCIAL_MEDIA } from "../../data/constants";
+import "./footer.css";
+import NavList from "../nav-list/nav-list";
+import CurrentYear from "../../utils/get-year";
+import ImageComp from "../Img/image-componet";
+import FacebookIcon from "../../assets/images/Icons/Sorted Icons/png/facebook.png";
+import TwitterIcon from "../../assets/images/Icons/Sorted Icons/png/twitter.png";
+import InstagramIcon from "../../assets/images/Icons/Sorted Icons/png/instagram-2.png";
 
 const Footer = () => {
   return (
