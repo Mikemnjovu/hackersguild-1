@@ -4,15 +4,11 @@ import { GET_IN_TOUCH } from "../../../data/constants";
 import BaseButton from "../../../components/button/base-button";
 import Getintouchimg from "../../../assets/images/pngs/Get-in-touch.png";
 const Getintouch = () => {
-  const {
-    title,
-    decription,
-    button: { className, content },
-  } = GET_IN_TOUCH;
+  const { title, decription } = GET_IN_TOUCH;
   return (
     <div className="get-in-touch__container" id="get-in-touch">
       <div className="get-in-touch__img">
-        <img src={Getintouchimg} />
+        <img src={Getintouchimg} alt="phone-vector" />
       </div>
       <div className="get-in-touch-text--container">
         <div className="get-in-touch__title">
