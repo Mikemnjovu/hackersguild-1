@@ -1,10 +1,18 @@
-import React from "react";
-import SchoolClubs from "../../assets/images/pngs/school-club.png";
-import ImageComp from "../../components/Img/image-componet";
-import "./learn-more.css";
-import BaseButton from "../../components/button/base-button";
-import { WHAT_WE_DO } from "../../data/constants";
+import React, {
+  useContext,
+} from 'react';
+import SchoolClubs from '../../assets/images/pngs/school-club.png';
+import ImageComp from '../../components/Img/image-componet';
+import './learn-more.css';
+import BaseButton from '../../components/button/base-button';
+import { WHAT_WE_DO } from '../../data/constants';
+import { NavContext } from '../../utils/state/nav-state';
 const SchoolClubsPage = () => {
+  const [
+    navShowState,
+    setNavShowState,
+  ] = useContext(NavContext);
+  setNavShowState(false);
   const {
     schoolClubs: {
       title,
@@ -13,21 +21,26 @@ const SchoolClubsPage = () => {
     },
   } = WHAT_WE_DO;
   return (
-    <div className="learn_more__conatiner">
-      <div className="learn_more__text">
+    <div className='learn_more__conatiner'>
+      <div className='learn_more__text'>
         <h1>{title} </h1>
         <p>{discription}</p>
-        <div className="learn_more__button">
+        <div className='learn_more__button'>
           <BaseButton
             btnData={{
               content: pageButton,
-              className: "btn__normal",
+              className: 'btn__normal',
             }}
           />
         </div>
       </div>
-      <div className="learn_more__image">
-        <ImageComp imgSrc={SchoolClubs} className={"learn_more__image"} />
+      <div className='learn_more__image'>
+        <ImageComp
+          imgSrc={SchoolClubs}
+          className={
+            'learn_more__image'
+          }
+        />
       </div>
     </div>
   );
