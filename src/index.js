@@ -1,13 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./pages";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './pages';
+import * as serviceWorker from './serviceWorker';
+import { NavProvider } from './utils/state/nav-state';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavProvider>
+      <App />
+    </NavProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

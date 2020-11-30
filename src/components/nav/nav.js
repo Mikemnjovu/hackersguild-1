@@ -18,16 +18,12 @@ const Nav = () => {
   ] = useState(false);
   const buttonMenuHandler = () => {
     setMenushow(!menuShow);
-    // console.log(menuShow);
   };
   const [
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-  console.log(
-    ['NavShowState'],
-    navShowState
-  );
+
   const menuItems = () => {
     return (
       <div className='nav-container__list'>

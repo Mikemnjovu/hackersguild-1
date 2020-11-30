@@ -1,8 +1,14 @@
 /* .social__container {
 } */
-.default__styles {
+/* .default__styles {
   display: none;
-  height: 2em;
+  height: 1.5em;
+  object-fit: contain;
+} */
+.default__styles {
+  display: inline;
+  /* display: none; */
+  height: 1.5em;
   object-fit: contain;
 }
 
