@@ -7,8 +7,7 @@
 } */
 .default__styles {
   display: inline;
-  /* display: none; */
-  height: 1.5em;
+
   object-fit: contain;
 }
 
