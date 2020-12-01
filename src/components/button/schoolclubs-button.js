@@ -1,5 +1,5 @@
 import React from "react";
-import { OnClickRouter } from "../../utils/navgation/button-on-click-router";
+import { OnClickRouter } from "../../utils/navigation/button-on-click-router";
 import "./button.css";
 
 const SchoolClubsBtn = ({

@@ -9,18 +9,23 @@ import {
 import '../styles/global-styles.css';
 import NavBar from '../components/nav_bar/nav-bar';
 import Footer from '../components/footer/footer';
-import FooterMobile from '../components/footer/footer -mobile';
+import FooterMobile from '../components/footer/footer-mobile';
 import LandingPage from './landing/landing-page';
 import HackerthonsPage from './learn_more/hackerthons';
 import BootcampsPage from './learn_more/bootcamps';
 import SchoolClubsPage from './learn_more/school-clubs';
-import { NavContext } from '../utils/state/nav-state';
+import {
+  NavContext,
+  NavProvider,
+} from '../utils/state/nav-state';
+import { NavSetState } from '../utils/state/nav-setState';
+
 function App() {
   const [
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-  setNavShowState(true);
+  NavSetState(true);
   return (
     <>
       <div className='App'>

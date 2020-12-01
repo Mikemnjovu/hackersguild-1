@@ -8,7 +8,7 @@ import { NAV } from '../../data/constants';
 import './nav.css';
 import BaseButton from '../button/base-button';
 import NavList from '../nav-list/nav-list';
-import { BackToHome } from '../../utils/navgation/back-to-home';
+import { BackToHome } from '../../utils/navigation/back-to-home';
 import { NavContext } from '../../utils/state/nav-state';
 const Nav = () => {
   // Mobile menu button toggle
@@ -18,12 +18,16 @@ const Nav = () => {
   ] = useState(false);
   const buttonMenuHandler = () => {
     setMenushow(!menuShow);
+    // console.log(menuShow);
   };
   const [
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-
+  console.log(
+    ['NavShowState'],
+    navShowState
+  );
   const menuItems = () => {
     return (
       <div className='nav-container__list'>
