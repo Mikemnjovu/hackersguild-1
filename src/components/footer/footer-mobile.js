@@ -18,7 +18,9 @@ const FooterMobile = () => {
     <div className='footer__container_mobile'>
       <div className='footer__labels'>
         {navShowState ? (
-          <h4>Nav</h4>
+          <div>
+            <h4>Nav</h4>
+          </div>
         ) : (
           ''
         )}
@@ -26,11 +28,13 @@ const FooterMobile = () => {
       </div>
       <div className='footer__social-nav_mobile'>
         {navShowState ? (
-          <NavList
-            className={
-              'footer__item_mobile'
-            }
-          />
+          <div>
+            <NavList
+              className={
+                'footer__item_mobile'
+              }
+            />
+          </div>
         ) : (
           ''
         )}
