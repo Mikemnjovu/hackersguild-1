@@ -6,7 +6,7 @@ import ImageComp from '../../components/Img/image-componet';
 import './learn-more.css';
 import BaseButton from '../../components/button/base-button';
 import { WHAT_WE_DO } from '../../data/constants';
-import { NavContext } from '../../utils/state/nav-state';
+import { NavContext } from '../../data/state/nav-state';
 const BootcampsPage = () => {
   const [
     navShowState,

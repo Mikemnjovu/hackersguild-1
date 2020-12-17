@@ -9,7 +9,7 @@ import './nav.css';
 import BaseButton from '../button/base-button';
 import NavList from '../nav-list/nav-list';
 import { BackToHome } from '../../utils/navigation/back-to-home';
-import { NavContext } from '../../utils/state/nav-state';
+import { NavContext } from '../../data/state/nav-state';
 const Nav = () => {
   // Mobile menu button toggle
   const [

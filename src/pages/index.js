@@ -7,7 +7,6 @@ import {
   Switch,
 } from 'react-router-dom';
 import '../styles/global-styles.css';
-import NavBar from '../components/nav_bar/nav-bar';
 import Footer from '../components/footer/footer';
 import FooterMobile from '../components/footer/footer-mobile';
 import LandingPage from './landing/landing-page';
@@ -17,8 +16,9 @@ import SchoolClubsPage from './learn_more/school-clubs';
 import {
   NavContext,
   NavProvider,
-} from '../utils/state/nav-state';
-import { NavSetState } from '../utils/state/nav-setState';
+} from '../data/state/nav-state';
+import { NavSetState } from '../data/state/nav-setState';
+import Nav from '../components/nav/nav';
 
 function App() {
   const [
@@ -30,7 +30,7 @@ function App() {
     <>
       <div className='App'>
         <Router>
-          <NavBar />
+          <Nav />;
           <Switch>
             <Route
               exact
