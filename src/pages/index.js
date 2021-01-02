@@ -30,7 +30,7 @@ function App() {
     <>
       <div className='App'>
         <Router>
-          <Nav />;
+          <Nav />
           <Switch>
             <Route
               exact

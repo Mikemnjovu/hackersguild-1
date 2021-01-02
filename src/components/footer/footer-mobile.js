@@ -59,11 +59,7 @@ const FooterMobile = () => {
           {navShowState ? (
             <div>
               <h4>Nav</h4>
-              <NavList
-                className={
-                  'footer__item_mobile'
-                }
-              />
+              <NavList />
             </div>
           ) : (
             ''
