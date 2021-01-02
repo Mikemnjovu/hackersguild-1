@@ -55,7 +55,6 @@ function App() {
             />
           </Switch>
         </Router>
-        <FooterMobile />
         <Footer />
       </div>
     </>

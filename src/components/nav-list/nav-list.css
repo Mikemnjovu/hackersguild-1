@@ -1,6 +1,6 @@
 .footer__item > a {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
@@ -41,7 +41,7 @@
 @media screen and (min-width: 400px) {
   .footer__item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
 }
@@ -52,6 +52,6 @@
     align-items: center;
   }
   .footer__item {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
   }
 }

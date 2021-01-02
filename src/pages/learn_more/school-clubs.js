@@ -1,5 +1,6 @@
 import React, {
   useContext,
+  useEffect,
 } from 'react';
 import SchoolClubs from '../../assets/images/pngs/school-club.png';
 import ImageComp from '../../components/Img/image-componet';
@@ -12,7 +13,10 @@ const SchoolClubsPage = () => {
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-  setNavShowState(false);
+  // setNavShowState(false);
+  useEffect(() => {
+    setNavShowState(!navShowState);
+  }, []);
   const {
     schoolClubs: {
       title,

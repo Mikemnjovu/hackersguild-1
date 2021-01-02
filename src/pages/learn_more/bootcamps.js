@@ -1,5 +1,6 @@
 import React, {
   useContext,
+  useEffect,
 } from 'react';
 import Hackerthons from '../../assets/images/pngs/bootcamps.png';
 import ImageComp from '../../components/Img/image-componet';
@@ -12,7 +13,10 @@ const BootcampsPage = () => {
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-  setNavShowState(false);
+  // setNavShowState(false);
+  useEffect(() => {
+    setNavShowState(!navShowState);
+  }, []);
   const {
     bootCamps: {
       title,
