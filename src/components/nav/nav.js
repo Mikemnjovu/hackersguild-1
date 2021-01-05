@@ -91,9 +91,7 @@ const Nav = () => {
         )}
       </div>
       <div className='nav__web_moblie'>
-        {navShowState
-          ? menuItems()
-          : ''}
+        {menuShow ? menuItems() : ''}
       </div>
     </div>
   );
