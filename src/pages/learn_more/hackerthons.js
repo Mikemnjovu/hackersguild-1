@@ -14,9 +14,13 @@ const HackerthonsPage = () => {
     setNavShowState,
   ] = useContext(NavContext);
   // setNavShowState(false);
-  useEffect(() => {
-    setNavShowState(!navShowState);
-  }, []);
+
+  setNavShowState(false);
+  console.log(
+    'hackerthons',
+    navShowState
+  );
+
   const {
     hackerthons: {
       title,
