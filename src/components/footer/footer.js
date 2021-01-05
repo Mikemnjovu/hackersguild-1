@@ -12,15 +12,16 @@ const Footer = () => {
   return (
     <div className='footer__container'>
       {/* <hr /> */}
-      <div className='footer__labels'>
+      {/* <div className='footer__labels'>
         <h3>Nav</h3>
         <h3>Social</h3>
-      </div>
+      </div> */}
 
+      {/* <hr /> */}
       <div className='footer_social_nav'>
-        <NavList
+        {/* <NavList
           className={'footer__item'}
-        />
+        /> */}
         <div className='footer__social'>
           <a
             href={SOCIAL_MEDIA.facebook}
@@ -52,6 +53,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      {/* <hr /> */}
       <div className='footer__copywrite_container'>
         <p>
           Made with ❤️ by HackersGuild{' '}
