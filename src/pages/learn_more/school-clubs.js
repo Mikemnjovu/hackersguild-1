@@ -17,9 +17,14 @@ const SchoolClubsPage = () => {
     setNavShowState,
   ] = useContext(NavContext);
   // setNavShowState(false);
-  useEffect(() => {
-    setNavShowState(!navShowState);
-  }, []);
+
+  // * Setting the nav-bar state to flase
+  setNavShowState(false);
+  console.log(
+    'school-club',
+    navShowState
+  );
+
   const {
     schoolClubs: {
       title,
