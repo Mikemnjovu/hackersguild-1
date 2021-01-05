@@ -24,10 +24,7 @@ const Nav = () => {
     navShowState,
     setNavShowState,
   ] = useContext(NavContext);
-  console.log(
-    ['NavShowState'],
-    navShowState
-  );
+
   const menuItems = () => {
     return (
       <div className='nav-container__list'>
@@ -94,7 +91,9 @@ const Nav = () => {
         )}
       </div>
       <div className='nav__web_moblie'>
-        {menuShow ? menuItems() : ''}
+        {navShowState
+          ? menuItems()
+          : ''}
       </div>
     </div>
   );

@@ -14,9 +14,9 @@ const BootcampsPage = () => {
     setNavShowState,
   ] = useContext(NavContext);
   // setNavShowState(false);
-  useEffect(() => {
-    setNavShowState(!navShowState);
-  }, []);
+
+  setNavShowState(false);
+  console.log('Bootcamp', navShowState);
   const {
     bootCamps: {
       title,
