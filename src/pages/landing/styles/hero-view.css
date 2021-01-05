@@ -129,6 +129,9 @@
     align-items: flex-start;
     flex-direction: row;
     text-align: start;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* text-align: center; */
   }
   .hero__text {
     align-items: flex-start;
