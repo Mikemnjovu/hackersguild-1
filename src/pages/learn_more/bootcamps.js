@@ -8,7 +8,11 @@ import './learn-more.css';
 import BaseButton from '../../components/button/base-button';
 import { WHAT_WE_DO } from '../../data/constants';
 import { NavContext } from '../../data/state/nav-state';
+import { scrollTop } from '../../utils/scroll-to-top';
 const BootcampsPage = () => {
+  // * Sroll to top on render
+  scrollTop();
+
   const [
     navShowState,
     setNavShowState,
