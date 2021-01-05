@@ -6,7 +6,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
 import '../styles/global-styles.css';
 import Footer from '../components/footer/footer';
 import FooterMobile from '../components/footer/footer-mobile';
@@ -30,12 +29,7 @@ function App() {
   return (
     <>
       <div className='App'>
-        <Router
-          onUpdate={() =>
-            window.scrollTo(0, 0)
-          }
-          history={createBrowserHistory}
-        >
+        <Router>
           <Nav />
           <Switch>
             <Route
