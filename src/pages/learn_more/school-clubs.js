@@ -38,12 +38,13 @@ const SchoolClubsPage = () => {
         <h1>{title} </h1>
         <p>{discription}</p>
         <div className='learn_more__button'>
-          <BaseButton
+          {/* Button */}
+          {/* <BaseButton
             btnData={{
               content: pageButton,
               className: 'btn__normal',
             }}
-          />
+          /> */}
         </div>
       </div>
       <div className='learn_more__image'>

@@ -33,12 +33,9 @@ const BootcampsPage = () => {
       <div className='learn_more__text'>
         <h1>{title}</h1>
         <p>{discription}</p>
-        <BaseButton
-          btnData={{
-            content: pageButton,
-            className: 'btn__normal',
-          }}
-        />
+
+        {/*  Button  */}
+        {/* <BaseButton btnData={{content: pageButton,className: 'btn__normal', }}/> */}
       </div>
       <div className='learn_more__image'>
         <ImageComp
