@@ -4,10 +4,9 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  /* max-width: 100%; */
   background-color: #3aae84;
   color: #fff;
-  /* padding: 0 0.2em; */
+  margin-bottom: 4rem;
 }
 .hero__text {
   display: flex;
@@ -53,7 +52,6 @@
     /* max-width: 500px; */
     background-color: #ffffff;
     color: #000;
-    width: 90vw;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -84,7 +82,6 @@
   }
   .hero__content {
     max-width: 33em;
-    margin: 1em 0 1.5em 0;
     font-size: 20px;
     text-align: center;
   }
@@ -94,21 +91,17 @@
   .hero {
     background-color: #ffffff;
     color: #000;
-    max-height: 70vh;
     justify-content: center;
-    margin-top: 4em;
   }
 
   .hero__img--one {
     display: block;
   }
   .hero__title {
-    margin-top: 1em;
     max-width: 19em;
     font-size: 5.5vw;
     font-weight: 900;
     text-align: center;
-    /* margin-bottom: 0.2em; */
   }
   .hero__content {
     max-width: 33em;
@@ -122,8 +115,8 @@
 
 @media screen and (min-width: 1004px) {
   .hero {
-    height: 100vh;
-    margin: 0 5em;
+    margin-left: 5em;
+    margin-right: 5em;
     margin-top: 2.9em;
     background-color: #ffffff;
     color: #000;
@@ -133,7 +126,6 @@
     text-align: start;
     align-items: center;
     justify-content: space-around;
-    /* text-align: center; */
   }
   .hero__text {
     align-items: flex-start;
@@ -150,7 +142,6 @@
     width: 40em;
     text-align: left;
     margin-bottom: 3em;
-    font-size: 1.23vw;
   }
   /* this is not working */
   .hero__btn button {
