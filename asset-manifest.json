@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/hackersguild/static/css/main.d2732add.chunk.css",
-    "main.js": "/hackersguild/static/js/main.e6e15d15.chunk.js",
-    "main.js.map": "/hackersguild/static/js/main.e6e15d15.chunk.js.map",
-    "runtime-main.js": "/hackersguild/static/js/runtime-main.165fe713.js",
-    "runtime-main.js.map": "/hackersguild/static/js/runtime-main.165fe713.js.map",
-    "static/js/2.0794ff53.chunk.js": "/hackersguild/static/js/2.0794ff53.chunk.js",
-    "static/js/2.0794ff53.chunk.js.map": "/hackersguild/static/js/2.0794ff53.chunk.js.map",
-    "index.html": "/hackersguild/index.html",
-    "precache-manifest.b77e58113fd5e15cf13b8aef748be574.js": "/hackersguild/precache-manifest.b77e58113fd5e15cf13b8aef748be574.js",
-    "service-worker.js": "/hackersguild/service-worker.js",
-    "static/css/main.d2732add.chunk.css.map": "/hackersguild/static/css/main.d2732add.chunk.css.map",
-    "static/js/2.0794ff53.chunk.js.LICENSE.txt": "/hackersguild/static/js/2.0794ff53.chunk.js.LICENSE.txt",
-    "static/media/Get-in-touch.png": "/hackersguild/static/media/Get-in-touch.1d20333d.png",
-    "static/media/HeroImage.png": "/hackersguild/static/media/HeroImage.0766a44c.png",
-    "static/media/bootcamps.png": "/hackersguild/static/media/bootcamps.e055d57b.png",
-    "static/media/github-logo.png": "/hackersguild/static/media/github-logo.cefc2023.png",
-    "static/media/hackerthons.png": "/hackersguild/static/media/hackerthons.1dd472fc.png",
-    "static/media/open-energy-labs.png": "/hackersguild/static/media/open-energy-labs.64191186.png",
-    "static/media/school-club.png": "/hackersguild/static/media/school-club.8c5f34e4.png"
+    "main.css": "/static/css/main.d2732add.chunk.css",
+    "main.js": "/static/js/main.041c6ec1.chunk.js",
+    "main.js.map": "/static/js/main.041c6ec1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f097e1fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f097e1fb.js.map",
+    "static/js/2.0794ff53.chunk.js": "/static/js/2.0794ff53.chunk.js",
+    "static/js/2.0794ff53.chunk.js.map": "/static/js/2.0794ff53.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.04a1d637257b28d3ebb2e2296d246327.js": "/precache-manifest.04a1d637257b28d3ebb2e2296d246327.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d2732add.chunk.css.map": "/static/css/main.d2732add.chunk.css.map",
+    "static/js/2.0794ff53.chunk.js.LICENSE.txt": "/static/js/2.0794ff53.chunk.js.LICENSE.txt",
+    "static/media/Get-in-touch.png": "/static/media/Get-in-touch.1d20333d.png",
+    "static/media/HeroImage.png": "/static/media/HeroImage.0766a44c.png",
+    "static/media/bootcamps.png": "/static/media/bootcamps.e055d57b.png",
+    "static/media/github-logo.png": "/static/media/github-logo.cefc2023.png",
+    "static/media/hackerthons.png": "/static/media/hackerthons.1dd472fc.png",
+    "static/media/open-energy-labs.png": "/static/media/open-energy-labs.64191186.png",
+    "static/media/school-club.png": "/static/media/school-club.8c5f34e4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.165fe713.js",
+    "static/js/runtime-main.f097e1fb.js",
     "static/js/2.0794ff53.chunk.js",
     "static/css/main.d2732add.chunk.css",
-    "static/js/main.e6e15d15.chunk.js"
+    "static/js/main.041c6ec1.chunk.js"
   ]
 }
