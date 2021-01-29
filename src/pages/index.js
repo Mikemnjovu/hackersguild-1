@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "../styles/global-styles.css";
 import Footer from "../components/footer/footer";
 import LandingPage from "./landing/landing-page";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router basename={"/"}>
+        <Router>
           <Nav />
           <Switch>
             <Route exact path="/" component={LandingPage} />
