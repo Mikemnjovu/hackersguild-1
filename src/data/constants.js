@@ -105,7 +105,7 @@ export const OUR_PARTNERS = {
 export const GET_IN_TOUCH = {
   title: "Get in touch with us",
   decription:
-    "Get In touch for inquereis. Find out more about us and what we do for you and the community. . Find out more about us and what we do for you and the community.. Find out more about us and what we do for you and the community.",
+    "Get In touch for inquiries. Find out more about us and what we do for you and the community.",
   button: {
     className: "btn__normal-small atag-style",
     content: "Email us Now!",
