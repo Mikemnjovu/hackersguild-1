@@ -24,14 +24,12 @@
   text-decoration: none;
   color: #ffffff;
   padding: 0.5rem;
-  /*margin: 0.3rem;*/
 }
 .footer__copywrite_container {
   margin: 2em 0em;
   text-align: center;
   order: 2;
 }
-
 
 .footer_social_nav {
   max-width: 100vw;
@@ -50,5 +48,4 @@
 }
 
 @media screen and (min-width: 1004px) {
-  /*  */
 }

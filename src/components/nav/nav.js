@@ -1,15 +1,15 @@
 import React, {
-  useState,
   useContext,
+  useState,
 } from 'react';
 import hGLogo from '../../assets/images/HGLogo.png';
 import menu from '../../assets/images/pngs/menu.png';
 import { NAV } from '../../data/constants';
-import './nav.css';
+import { NavContext } from '../../data/state/nav-state';
+import { BackToHome } from '../../utils/navigation/back-to-home';
 import BaseButton from '../button/base-button';
 import NavList from '../nav-list/nav-list';
-import { BackToHome } from '../../utils/navigation/back-to-home';
-import { NavContext } from '../../data/state/nav-state';
+import './nav.css';
 const Nav = () => {
   // Mobile menu button toggle
   const [

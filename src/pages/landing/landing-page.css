@@ -1,16 +1,10 @@
 .circle {
-  /* position: sticky; */
   display: none;
   justify-content: flex-end;
-  /* align-items: flex-end; */
 }
 .circle__item {
   height: 90px;
   width: 90px;
   background-color: #3aae84;
   border-radius: 100%;
-  /* position: absolute; */
-  /* transform: translateX(10px); */
-  /* transform: translateZ(0); */
-  /* text-align: right; */
 }

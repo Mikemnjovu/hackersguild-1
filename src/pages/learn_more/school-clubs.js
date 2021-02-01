@@ -1,14 +1,12 @@
 import React, {
   useContext,
-  useEffect,
 } from 'react';
 import SchoolClubs from '../../assets/images/pngs/school-club.png';
 import ImageComp from '../../components/Img/image-componet';
-import './learn-more.css';
-import BaseButton from '../../components/button/base-button';
 import { WHAT_WE_DO } from '../../data/constants';
 import { NavContext } from '../../data/state/nav-state';
 import { scrollToTop } from '../../utils/scroll-to-top';
+import './learn-more.css';
 const SchoolClubsPage = () => {
   // * Sroll to top on render
   scrollToTop();
