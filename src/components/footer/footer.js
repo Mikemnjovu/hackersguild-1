@@ -24,8 +24,13 @@ const Footer = () => {
       <div className='footer__copywrite_container'>
         <p>
           Made with{' '}
-          <span role='img'>❤️</span> by
-          HackersGuild
+          <span
+            role='img'
+            aria-label='love'
+          >
+            ❤️
+          </span>{' '}
+          by HackersGuild
         </p>
       </div>
     </div>
