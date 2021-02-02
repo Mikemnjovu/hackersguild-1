@@ -1,16 +1,16 @@
 import React from 'react';
-import '../styles/what-we-do.css';
+import Bootcamps from '../../../assets/images/pngs/bootcamps.png';
+import Hackerthon from '../../../assets/images/pngs/hackerthons.png';
+import SchoolClubs from '../../../assets/images/pngs/school-club.png';
+import BoootCampsBtn from '../../../components/button/bootcamp-button';
+import HackerthonsBtn from '../../../components/button/hackerthon-button';
+import SchoolClubsBtn from '../../../components/button/schoolclubs-button';
+import WhatWeDoItem from '../../../components/what_we_do_item/what-we-do-item';
 import {
   SECTIONS,
   WHAT_WE_DO,
 } from '../../../data/constants';
-import WhatWeDoItem from '../../../components/what_we_do_item/what-we-do-item';
-import Hackerthon from '../../../assets/images/pngs/hackerthons.png';
-import Bootcamps from '../../../assets/images/pngs/bootcamps.png';
-import SchoolClubs from '../../../assets/images/pngs/school-club.png';
-import HackerthonsBtn from '../../../components/button/hackerthon-button';
-import BoootCampsBtn from '../../../components/button/bootcamp-button';
-import SchoolClubsBtn from '../../../components/button/schoolclubs-button';
+import '../styles/what-we-do.css';
 
 const WhatWeDo = () => {
   const {

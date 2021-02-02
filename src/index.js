@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pages';
 import { NavProvider } from './data/state/nav-state';
+import App from './pages';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,49 +1,32 @@
-import React from "react";
-import { SOCIAL_MEDIA } from "../../data/constants";
-import "./footer.css";
+import React from 'react';
+import { SOCIAL_MEDIA } from '../../data/constants';
+import './footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer__container">
-      {/* <hr /> */}
-      {/* <div className='footer__labels'>
-        <h3>Nav</h3>
-        <h3>Social</h3>
-      </div> */}
+    <div className='footer__container'>
+      <div className='footer_social_nav'>
+        <a href={SOCIAL_MEDIA.facebook}>
+          Facebook
+        </a>
 
-      {/* <hr /> */}
-      <div className="footer_social_nav">
-        {/* <NavList
-          className={'footer__item'}
-        /> */}
-        <div className="footer__social">
-          <a href={SOCIAL_MEDIA.facebook}>
-            {/* <ImageComp
-            imgSrc={FacebookIcon}
-          /> */}
-            Facebook
-          </a>
+        <a href={SOCIAL_MEDIA.twitter}>
+          Twitter
+        </a>
 
-          <a href={SOCIAL_MEDIA.twitter}>
-            {/* <ImageComp
-            imgSrc={TwitterIcon}
-          /> */}
-            Twitter
-          </a>
-
-          <a href={SOCIAL_MEDIA.instagram}>
-            {/* <ImageComp
-            imgSrc={InstagramIcon}
-          /> */}
-            Instagram
-          </a>
-        </div>
+        <a
+          href={SOCIAL_MEDIA.instagram}
+        >
+          Instagram
+        </a>
       </div>
-      {/* <hr /> */}
-      <div className="footer__copywrite_container">
-        <span role="img" aria-label="emoji">
-          Made with ❤️ by HackersGuild {/* {CurrentYear()} */}
-        </span>
+
+      <div className='footer__copywrite_container'>
+        <p>
+          Made with{' '}
+          <span role='img'>❤️</span> by
+          HackersGuild
+        </p>
       </div>
     </div>
   );

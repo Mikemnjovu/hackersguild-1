@@ -1,11 +1,8 @@
-import React, {
-  useContext,
-  useEffect,
-} from 'react';
-import './footer-mobile.css';
-import NavList from '../nav-list/nav-list';
+import React from 'react';
 import CurrentYear from '../../utils/get-year';
+import NavList from '../nav-list/nav-list';
 import Socials from '../Social/Socials';
+import './footer-mobile.css';
 
 // import { NavContext } from '../../data/state/nav-state';
 const FooterMobile = (params) => {

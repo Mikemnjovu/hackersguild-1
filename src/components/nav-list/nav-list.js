@@ -1,12 +1,15 @@
-import React from "react";
-import { NAV_LIST } from "../../data/constants";
-import "./nav-list.css";
+import React from 'react';
+import { NAV_LIST } from '../../data/constants';
+import './nav-list.css';
 const NavList = ({ className }) => {
   return (
     <div>
       <div className={className}>
         {NAV_LIST.map((a) => (
-          <a key={a.id} href={a.page.link}>
+          <a
+            key={a.id}
+            href={a.page.link}
+          >
             {a.page.title}
           </a>
         ))}

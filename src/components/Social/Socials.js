@@ -1,9 +1,5 @@
 import React from 'react';
 import { SOCIAL_MEDIA } from '../../data/constants';
-import ImageComp from '../Img/image-componet';
-import FacebookIcon from '../../assets/images/Icons/Sorted Icons/png/facebook.png';
-import TwitterIcon from '../../assets/images/Icons/Sorted Icons/png/twitter.png';
-import InstagramIcon from '../../assets/images/Icons/Sorted Icons/png/instagram-2.png';
 const Socials = () => {
   return (
     <div className='footer__social_mobile'>

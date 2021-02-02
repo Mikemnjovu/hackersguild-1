@@ -29,11 +29,9 @@
 }
 
 .what-we-do__section__title {
-  /* margin: 3em; */
 }
 .what-we-do__title {
   font-size: 1.4em;
-  /* margin: 0.1em 0em 0.5em 0em; */
 }
 .what-we-do__discription {
   margin: 0.2em 0;
@@ -54,8 +52,6 @@
     margin-bottom: 3.5em;
   }
   .what-we-do__title {
-    /* margin-top: 1em; */
-    /* max-width: 19em; */
     font-size: 2em;
     font-weight: 900;
     text-align: center;
