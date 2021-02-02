@@ -7,6 +7,7 @@ import { WHAT_WE_DO } from '../../data/constants';
 import { NavContext } from '../../data/state/nav-state';
 import { scrollToTop } from '../../utils/scroll-to-top';
 import './learn-more.css';
+
 const HackerthonsPage = () => {
   // * Sroll to top on render
   scrollToTop();
@@ -24,25 +25,13 @@ const HackerthonsPage = () => {
   );
 
   const {
-    hackerthons: {
-      title,
-      discription,
-      button: { pageButton },
-    },
+    hackerthons: { title, discription },
   } = WHAT_WE_DO;
   return (
     <div className='learn_more__conatiner'>
       <div className='learn_more__text'>
         <h1>{title} </h1>
         <p>{discription}</p>
-
-        {/* Button */}
-        {/* <BaseButton
-          btnData={{
-            content: pageButton,
-            className: 'btn__normal',
-          }}
-        /> */}
       </div>
       <div className='learn_more__image'>
         <ImageComp

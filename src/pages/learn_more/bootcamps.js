@@ -7,6 +7,7 @@ import { WHAT_WE_DO } from '../../data/constants';
 import { NavContext } from '../../data/state/nav-state';
 import { scrollToTop } from '../../utils/scroll-to-top';
 import './learn-more.css';
+
 const BootcampsPage = () => {
   // * Sroll to top on render
   scrollToTop();
@@ -20,11 +21,7 @@ const BootcampsPage = () => {
   setNavShowState(false);
   console.log('Bootcamp', navShowState);
   const {
-    bootCamps: {
-      title,
-      discription,
-      button: { pageButton },
-    },
+    bootCamps: { title, discription },
   } = WHAT_WE_DO;
   return (
     <div className='learn_more__conatiner'>

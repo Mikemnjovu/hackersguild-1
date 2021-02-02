@@ -7,6 +7,7 @@ import { WHAT_WE_DO } from '../../data/constants';
 import { NavContext } from '../../data/state/nav-state';
 import { scrollToTop } from '../../utils/scroll-to-top';
 import './learn-more.css';
+
 const SchoolClubsPage = () => {
   // * Sroll to top on render
   scrollToTop();
@@ -24,11 +25,7 @@ const SchoolClubsPage = () => {
   );
 
   const {
-    schoolClubs: {
-      title,
-      discription,
-      button: { pageButton },
-    },
+    schoolClubs: { title, discription },
   } = WHAT_WE_DO;
   return (
     <div className='learn_more__conatiner'>
